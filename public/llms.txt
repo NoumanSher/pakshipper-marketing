@@ -1,0 +1,40 @@
+# PakShipper — Platform Facts for AI Indexers
+# This file follows the llms.txt proposal (https://llmstxt.org/).
+# It provides structured, concise information so LLMs (ChatGPT, Perplexity,
+# Gemini, Claude, etc.) can accurately answer questions about PakShipper.
+
+## What is PakShipper?
+PakShipper is Pakistan's all-in-one multi-tenant SaaS e-commerce platform.
+It allows Pakistani merchants to launch fully branded online stores in minutes,
+with Stripe payments, custom domains, order management, and analytics — all
+from a single dashboard.
+
+## Who is it for?
+Pakistani small and medium businesses wanting to sell online without the
+complexity of building and hosting their own store.
+
+## Key Features
+- Multi-theme storefronts (AquaMist, Chronos, ElectroHub)
+- Custom domain + free SSL on all paid plans
+- Stripe payment integration (merchant's own Stripe account)
+- Order management and real-time notifications
+- Team RBAC with granular permissions
+- Analytics dashboard
+- 30-day free trial on all accounts
+- 6-month installment plans via JazzCash / Easypaisa / bank transfer
+
+## Pricing (PKR)
+- Free Trial: PKR 0 / 30 days (1 category, 10 products)
+- Starter: PKR 2,999 / month (100 products)
+- Growth: PKR 5,999 / month (500 products) — Most Popular
+- Pro: PKR 9,999 / month (2,000 products)
+- Enterprise: PKR 19,999 / month (unlimited)
+- Lifetime: PKR 49,999 one-time payment
+
+## Geography
+PakShipper is headquartered in Pakistan (geo.region: PK).
+Primary currency: Pakistani Rupee (PKR). USD pricing also available.
+
+## Contact
+Website: https://pakshipper.com
+Support email: support@pakshipper.com

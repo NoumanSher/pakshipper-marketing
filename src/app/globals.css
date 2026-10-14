@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --color-background: #060810;
+  --color-foreground: #ffffff;
+}
+
+/* Base resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Lenis sets this — keep smooth scrolling as fallback */
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #060810;
+  color: #ffffff;
+  font-family: var(--font-inter, system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Thin, branded scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0f1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #0ea5e920;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e940;
+}
+
+/* Selection highlight */
+::selection {
+  background: #0ea5e930;
+  color: #ffffff;
+}
+
+/* Border-beam rotation keyframe */
+@keyframes rotate {
+  from { --angle: 0deg; }
+  to   { --angle: 360deg; }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
